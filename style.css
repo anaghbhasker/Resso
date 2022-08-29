@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,rgb(14,14,46),rgb(65,16,16));
+}
+.main{
+ display: flex;
+  
+  
+}
+.logo{
+    height: 25px;
+}
+.header{ 
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    display: grid;
+     grid-template-columns: 900px 200px 200px 200px;
+     align-items: center;
+    margin-left: 10px;
+     right: px;
+     top: 0;
+     z-index: 1;
+}
+.first{
+    width: 100%;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-size: 100% 100%;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+}
+.center{ 
+    position: absolute;
+    width: 100%;
+    height: 200px;
+
+    align-items: center;
+    right: 0px;
+    top: 300px;
+}
+.fstl{
+    color: white;
+    
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 550px;
+}
+.secondl{
+    color: white;
+    font-size: small;
+    padding-left: 450px;
+    padding-top: 20px;
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 650px;
+    padding: 15px;
+    width: 230px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 60px;
+    border-color:white ;
+    background-color:transparent ;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.second{
+    display: flex;
+    grid-template-columns: 500px 500px ;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-size: 100% 100%;
+   
+}
+.phone {
+    display: flex;
+}
+.phone img{
+    width: 250px;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+.phone video{
+    position: absolute;
+    width: 230px;
+    height: 482px;
+    margin-top:160px ;
+    margin-left: 20px;
+    object-fit: fill;
+    border-radius: 30px;
+}
+.music{
+    padding-left: 70px;
+    margin-top: 280px;
+}
+.music1
+{
+    color: transparent;
+    -webkit-text-stroke: 2px rgba(255,255,255,0.6);
+    
+    font-size: 100px;
+    font-weight: bold;
+}
+.music2{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+}
+.music3{
+    padding-top: 35px;
+    color: white;
+    font-size: 15px;
+}
+.third{
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-size: 100% 100%;
+}
+.phone2 {
+    display: flex;
+}
+.img1{
+    width: 250px;
+    height: 500px;
+    margin-left: -110px;
+    margin-top: 150px;
+}
+.img2{
+    position: absolute;
+    width: 230px;
+    height: 482px;
+    margin-top:159px ;
+    margin-left: -100px;
+    object-fit: fill;
+    border-radius: 30px;
+}
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-size: 100% 100%;
+}
+.pic1{
+   height: 80px;
+    margin-top:100px ;
+    margin-left: -250px; ;
+}
+.pic2{
+    height: 100px;
+    margin-bottom: 200px ;
+    margin-left: 100px;
+}
+.pic3{
+    height: 130px;
+    margin-bottom: -100px;
+}
+.people{
+    margin-left: 120px;
+}
+.pic1:hover{
+    cursor: pointer;
+    border: 4px solid rgb(238, 6, 122);
+    border-radius: 50px;
+}
+.people .pic2:hover{
+    cursor: pointer;
+    border: 4px solid rgb(238, 6, 122);
+    border-radius: 50px;
+}
+.people .pic3:hover{
+    cursor: pointer;
+    border: 4px solid rgb(238, 6, 122);
+    border-radius: 78px;
+}
+.foot{
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+.items{
+    color: hsla(0,0%,100%,.5);
+    display: flex;
+    font-size: 11px;
+    font-weight: 750;
+    margin-top: 50px;
+    margin-left: -980px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.items .word1:hover{
+    cursor: pointer;
+}
+.items .word2:hover{
+    cursor: pointer;
+}
+.items .word3:hover{
+    cursor: pointer;
+}
+.items .word4:hover{
+    cursor: pointer;
+}
+.silent img{
+    margin-top: -30px;
+    margin-left: 1400px;
+    width: 25px;
+    height: 25px;
+}
